@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Исследовательский сайт: водные биоресурсы юга России</title>
+    <link href="https://pmcore.ru/blog" />
+    <link type="application/atom+xml" rel="self" href="https://pmcore.ru/blog/feed.atom" />
+    <updated>2023-12-16T14:57:07+03:00</updated>
+    <id>https://pmcore.ru/blog/feed.atom</id>
+    <author>
+        <name>Пятинский М.М.</name>
+    </author>
+                <entry>
+    <id>https://pmcore.ru/content/welcome-world</id>
+    <link type="text/html" rel="alternate" href="https://pmcore.ru/content/welcome-world" />
+    <title>Привет, мир</title>
+    <published>2023-12-15T03:00:00+03:00</published>
+    <updated>2023-12-15T03:00:00+03:00</updated>
+    <author>
+        <name>IOHTTP</name>
+    </author>
+    <summary type="html">Краткое описание текста поста в блоге...</summary>
+    <content type="html"><![CDATA[
+        <p>Полный текст новости тут в формате markdown</p>
+
+<h2>Подраздел</h2>
+
+<p>Здесь текст описания подраздела</p>
+    ]]></content>
+</entry>
+    </feed>

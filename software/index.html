@@ -4,14 +4,14 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <meta name="description" content="Личный сайт визитка российского ученого - Пятинский Михаил. Мои проекты - наука, программирование, анализ данных. Публичные реализации методов экосистемного анализа и популяционного моделирования.">
+        <meta name="description" content="Бесплатные разработки Пятинского М.М. в открытом доступе. Разработки в области популяционного моделирования, экосистемного анализа и машинного обучения.">
 
-        <meta property="og:title" content="Исследовательский сайт: водные биоресурсы юга России"/>
+        <meta property="og:title" content="Программное обеспечение"/>
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://pmcore.ru/"/>
-        <meta property="og:description" content="Личный сайт визитка российского ученого - Пятинский Михаил. Мои проекты - наука, программирование, анализ данных. Публичные реализации методов экосистемного анализа и популяционного моделирования." />
+        <meta property="og:url" content="https://pmcore.ru/software"/>
+        <meta property="og:description" content="Бесплатные разработки Пятинского М.М. в открытом доступе. Разработки в области популяционного моделирования, экосистемного анализа и машинного обучения." />
 
-        <title>Исследовательский сайт: водные биоресурсы юга России</title>
+        <title>Программное обеспечение</title>
 
         <link rel="home" href="https://pmcore.ru">
 
@@ -52,7 +52,7 @@
                 <!-- Navigation -->
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="/software/">Программное обеспечение</a>
+                        <a class="nav-link active" href="/software/">Программное обеспечение</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/publications/">Научные публикации</a>
@@ -295,192 +295,198 @@
 
         
         <main id="main">
-                <section class="mt-4">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-12 col-md-5 col-lg-5 order-md-2">
-                    <!-- Image -->
-                    <img src="/assets/img/black-sea.jpg" class="img-fluid" alt="черное море">
-                </div>
-                <div class="col-12 col-md-7 col-lg-7 order-md-1" data-aos="fade-right">
-                    <!-- Heading -->
-                    <h1 class="display-3 text-center text-md-start">
-                        Сайт исследователя: <span class="text-primary">Пятинский Михаил</span>
-                    </h1>
+                <div class="container">
+        <div class="row align-items-center">
+            <div class="col-12 col-md-6">
 
-                    <!-- Text -->
-                    <p class="lead text-center text-md-start text-body-secondary mb-6 mb-lg-8">
-                        На моем личном сайте вы можете найти мои разработки в области исследования динамики численности популяций, экосистемного анализа водных живых ресурсов Юга России.
-                    </p>
+                <!-- Preheading -->
+                <h1 class="text-uppercase text-primary fw-bold">
+                    Программные разработки
+                </h1>
 
-                    <!-- Buttons -->
-                    <div class="text-center text-md-start">
-                        <a href="/software/" class="btn btn-primary shadow lift me-1">
-                            Программные реализации
-                        </a>
-                        <a href="/publications/" class="btn btn-light">
-                            Публикации
-                        </a>
+                <!-- Text -->
+                <p class="text-body-secondary mb-6 mb-md-8">
+                    Программные реализации и разработки автора в открытом доступе с открытым исходным кодом
+                </p>
+
+            </div>
+            <div class="col-12 col-md-6">
+
+                <!-- Image -->
+                <img src="/assets/img/working-illustration.png" class="img-fluid" alt="процесс разработки">
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-md-6">
+
+                <!-- Item -->
+                <div class="card card-border border-primary shadow-light-lg my-4" data-aos="fade-up">
+                    <div class="card-body">
+                        <h3 class="text-uppercase text-primary mb-5 me-1">
+                            Динамика численности популяций
+                        </h3>
+                        <div>
+                            <div class="list-group list-group-flush">
+                                <a class="list-group-item text-reset text-decoration-none" href="https://bitbucket.org/phdpm/sprat-xsa/src/master/">
+                                    <p class="fw-bold mb-1">
+                                        Реализация XSA (SimpleXSA)
+                                    </p>
+                                    <p class="fs-sm text-body-secondary mb-0">
+                                        Готовый набор программного кода для среды R, реализующий все этапы популяционного моделирования при помощи алгоритма eXtended survivor analysis (XSA) на базе программных продуктов FLR-project.
+                                    </p>
+                                </a>
+                                <a class="list-group-item text-reset text-decoration-none" href="https://bitbucket.org/model-examples/cmsy/src/master/">
+                                    <p class="fw-bold mb-1">
+                                        Реализация CMSY (SimpleCMSY)
+                                    </p>
+                                    <p class="fs-sm text-body-secondary mb-0">
+                                        Готовая реализация продукционной модели CMSY для ограниченных и неполных данных
+                                    </p>
+                                </a>
+                                <a class="list-group-item text-reset text-decoration-none" href="https://bitbucket.org/model-examples/sweptarea-boot/src/master/">
+                                    <p class="fw-bold mb-1">
+                                        Реализация площадного метода (SweptAreaBoot)
+                                    </p>
+                                    <p class="fs-sm text-body-secondary mb-0">
+                                        Готовая реализация площадного метода по данным научных съемок с аппроксимацией центральных тенденций через bootstrap
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
                     </div>
-
-                </div>
-            </div> <!-- / .row -->
-        </div> <!-- / .container -->
-    </section>
-
-    <section class="mt-4" data-aos="fade-up">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-4" data-aos="fade-up">
-                    <!-- Icon -->
-                    <div class="icon text-primary mb-2 text-center">
-                        <i class="fa-solid fa-sitemap fa-2x"></i>
-                    </div>
-
-                    <!-- Heading -->
-                    <h3 class="text-center">
-                        Направления исследований
-                    </h3>
-
-                    <!-- Text -->
-                    <p class="text-body-secondary mb-6 mb-md-0">
-                        Динамика численности популяций. Экосистемный анализ. Биометрика.
-                    </p>
-                </div>
-                <div class="col-12 col-md-4" data-aos="fade-up">
-                    <!-- Icon -->
-                    <div class="icon text-primary mb-2 text-center">
-                        <i class="fa-solid fa-sitemap fa-2x"></i>
-                    </div>
-
-                    <!-- Heading -->
-                    <h3 class="text-center">
-                        Методы исследований
-                    </h3>
-
-                    <!-- Text -->
-                    <p class="text-body-secondary mb-6 mb-md-0">
-                        Математическая статистика. Баесовский подход. Машинное обучение.
-                    </p>
-                </div>
-                <div class="col-12 col-md-4" data-aos="fade-up">
-                    <!-- Icon -->
-                    <div class="icon text-primary mb-2 text-center">
-                        <i class="fa-solid fa-screwdriver-wrench fa-2x"></i>
-                    </div>
-
-                    <!-- Heading -->
-                    <h3 class="text-center">
-                        Инструменты исследований
-                    </h3>
-
-                    <!-- Text -->
-                    <p class="text-body-secondary mb-6 mb-md-0">
-                        <span class="badge bg-secondary hvr-bounce-in">R</span>
-                        <span class="badge bg-secondary hvr-bounce-in">Python</span>
-                        <span class="badge bg-secondary">JupyterLab</span>
-                        <span class="badge bg-secondary hvr-bounce-in">C++</span>
-                        <span class="badge bg-secondary hvr-bounce-in">C#</span>
-                        <span class="badge bg-secondary hvr-bounce-in">php</span>
-                        <span class="badge bg-secondary hvr-bounce-in">html/js/css</span>
-                    </p>
-                </div>
-            </div> <!-- / .row -->
-        </div> <!-- / .container -->
-    </section>
-
-    <section class="mt-5 bg-gray" data-aos="fade-down">
-        <div class="container py-3">
-            <div class="row">
-                <div class="col">
-                    <h2 class="text-center">Программное обеспечение</h2>
-                    <p>В данном разделе представлены для открытого доступа разработки автора в ходе выполнения исследований. Представленые исходные коды доступны для скачивания на безвозмездной основе.</p>
                 </div>
             </div>
 
-
-            <div class="row">
-                <div class="col">
-                    <a href="#" class="btn btn-primary float-lg-end"><i class="fa-solid fa-list"></i> Все программные продукты</a>
-                </div>
-            </div>
-
-            <div class="row mt-0">
-                <div class="col-md-6">
-                    <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                        <div class="col col-md-8 p-4 d-flex flex-column position-static">
-                            <strong class="d-inline-block mb-2 text-primary">Популяция</strong>
-                            <h3 class="mb-0">Анализ XSA</h3>
-                            <em class="mb-1 mt-1 text-muted">Биостатическая популяционная модель</em>
-                            <p class="card-text mb-auto">Готовый набор программного кода для среды R, реализующий все этапы популяционного моделирования при помощи алгоритма eXtended survivor analysis (XSA) на базе программных продуктов FLR-project.</p>
-                            <a href="https://bitbucket.org/phdpm/sprat-xsa/src/master/" target="_blank" class="stretched-link">Репозиторий проекта</a>
-                        </div>
-                        <div class="col-auto col-md-4 d-none d-lg-block bg-rect-gray">
-                            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
-                                <title>SimpleXSA</title>
-                                <rect width="100%" height="100%" fill="#55595c"></rect><text x="25%" y="50%" fill="#eceeef" dy=".3em">SimpleXSA</text>
-                            </svg>
+            <div class="col-12 col-md-6">
+                <div class="card card-border border-success shadow-light-lg my-4" data-aos="fade-up">
+                    <div class="card-body">
+                        <h3 class="text-uppercase text-primary mb-5 me-1">
+                            Экосистемный анализ
+                        </h3>
+                        <div>
+                            <div class="list-group list-group-flush">
+                                <a class="list-group-item text-reset text-decoration-none" href="https://bitbucket.org/phdpm/iea-pca/src/master/">
+                                    <p class="fw-bold mb-1">
+                                        Индикаторный экосистемный анализ PCA
+                                    </p>
+                                    <p class="fs-sm text-body-secondary mb-0">
+                                        Готовый набор программного кода для среды R, реализующий все этапы процедуры интегрированного экосистемного анализа при помощи метода главных компонент PCA и анализа экосистемных сдвигов.
+                                    </p>
+                                </a>
+                                <a class="list-group-item text-reset text-decoration-none" href="https://bitbucket.org/model-examples/mfa-ecosystem/src/master/">
+                                    <p class="fw-bold mb-1">
+                                        Многофакторный анализ MFA
+                                    </p>
+                                    <p class="fs-sm text-body-secondary mb-0">
+                                        Готовый набор программного кода для среды R, реализующий все этапы процедуры интегрированного экосистемного анализа при помощи метода многофакторного анализа MFA.
+                                    </p>
+                                </a>
+                                <a class="list-group-item text-reset text-decoration-none" href="#">
+                                    <p class="fw-bold mb-1">
+                                        Пространственные корреляционный анализ
+                                    </p>
+                                    <p class="fs-sm text-body-secondary mb-0">
+                                        В разработке ...
+                                    </p>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <div class="col-md-6">
-                    <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                        <div class="col col-md-8 p-4 d-flex flex-column position-static">
-                            <strong class="d-inline-block mb-2 text-primary">Экосистема</strong>
-                            <h3 class="mb-0">Анализ PCA</h3>
-                            <em class="mb-1 mt-1 text-muted">Интегрированный экосистемный анализ</em>
-                            <p class="card-text mb-auto">Готовый набор программного кода для среды R, реализующий все этапы процедуры интегрированного экосистемного анализа при помощи метода главных компонент PCA и анализа экосистемных сдвигов.</p>
-                            <a href="https://bitbucket.org/phdpm/iea-pca/src/master/" target="_blank" class="stretched-link">Репозиторий проекта</a>
-                        </div>
-                        <div class="col-auto col-md-4 d-none d-lg-block bg-rect-gray">
-                            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
-                                <title>Placeholder</title>
-                                <rect width="100%" height="100%" fill="#55595c"></rect><text x="25%" y="50%" fill="#eceeef" dy=".3em">IEA-PCA</text>
-                            </svg>
-                        </div>
+        </div>
+
+
+        <div class="row align-items-center mt-4 mb-5">
+            <div class="col-12 col-md-6">
+                <img src="/assets/img/applied-research.jpg" class="img-fluid" alt="научные работы">
+            </div>
+            <div class="col-12 col-md-6">
+                <!-- Preheading -->
+                <h2 class="text-uppercase text-primary fw-bold">
+                    Прикладные программные сервисы
+                </h2>
+
+                <!-- Text -->
+                <p class="text-body-secondary mb-6 mb-md-8">
+                    Программные реализации и разработки с участием автора для выполнения прикладных задач
+                </p>
+            </div>
+
+            <div class="project mt-4">
+                <div class="row">
+                    <div class="col project-head">
+                        <h3># 1. Биостатистика</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 d-none d-md-block">
+                        <img src="/assets/img/biostat.jpg" class="img-fluid img-thumbnail" alt="лого биостатистика">
+                    </div>
+                    <div class="col-md-8">
+                        <p>Биостатистика - закрытый проект, разрабатываемый отделом информационно-математических технологий Азово-черноморского филиала ВНИРО для сбора, хранения и анализа рыбохозяйственных данных. Проект содержит в себе 3 базы данных: ихтиологических
+                            журналов наблюдений в АЧБ, сводки судовых суточных донесений флота а так же многолетнюю статистику вылова водных живых ресурсов по отчетам АЧТУ.</p>
+                        <p>Для каждой из баз данных проекта разработан интерфейс просмотра, сортировки, выборки и картирования данных а так же интерфейсы анализа.</p>
+                        <p>Проект построен на базе системы управления содержимым сайта FFCMS. Для данного проекта получен <a href="https://new.fips.ru/iiss/document.xhtml?faces-redirect=true&amp;id=a0fa9e56c5de253db3836505866367f3" target="_blank">патент</a>                            на программную разработку в ФИПС.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project mt-5">
+                <div class="row">
+                    <div class="col project-head">
+                        <h3># 2. Онлайн карта АзНИИРХ</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8">
+                        <p>Онлайн-карта АзНИИРХ - гео-информационный проект, позволяющий просматривать опубликованную информацию в режиме интерактивной карты. Проект является общедоступным и разрабатывается отделом информационно-математических технологий
+                            Азово-Черноморского филиала ВНИРО.</p>
+                        <p>Используемые технологии: <span class="badge bg-info hvr-grow">geoserver</span>
+                            <span class="badge bg-info hvr-grow">leaflet</span>
+                            <span class="badge bg-info hvr-grow">bootstrap</span>
+                        </p>
+                        <p>Карта позволяет получить информацию о рыболовных и рыбоводных участках АЧБ, Ростовской области и Краснодарского края; информацию о правилах любительского и промышленного рыболовства; морских режимных районах и районах опасных в
+                            навигационном плане и другие.</p>
+                        <p class="pt-3">
+                            Карта АзНИИРХ: <a href="https://map.azniirkh.ru" target="_blank">открыть онлайн</a>
+                        </p>
+                    </div>
+                    <div class="col-md-4 d-none d-md-block">
+                        <img src="/assets/img/mapazniirkh.jpg" class="img-fluid img-thumbnail" alt="онлайн карта азниирх лого">
+                    </div>
+                </div>
+            </div>
+
+            <div class="project mt-5">
+                <div class="row">
+                    <div class="col project-head">
+                        <h3># 3. Оперативное прогнозирование на ИИ</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 d-none d-md-block text-center">
+                        <img src="/assets/img/fiai-project.png" class="img-fluid img-thumbnail" alt="Fishery AI - оперативный прогноз промысла методами ИИ">
+                    </div>
+                    <div class="col-md-8">
+                        <p>FIAI - система оперативного прогнозирования промысла в Азово-Черноморском бассейне. Система предоставляет оперативный прогноз на 9 дней вперед наиболее благоприятных условий и мест вылова массовых видов водных биоресурсов для ведения
+                            эффективного промысла.</p>
+                        <p>В основе прогноза лежат средства и технологии, основанные на искусственном интелекте в результате обучения системы на многолетних данных мониторинга промысла и окружающей среды.</p>
+                        <p>Используемые технологии: <span class="badge bg-info hvr-grow">mysql</span>
+                            <span class="badge bg-info hvr-grow">gdal</span>
+                            <span class="badge bg-info hvr-grow">python</span>
+                            <span class="badge bg-info hvr-grow">pycaret</span>
+                            <span class="badge bg-info hvr-grow">linux</span>
+                        </p>
+                        <p>Сайт FIAI: <a href="https://azniirkh.vniro.ru/pages/view/digital/forecast-ai" target="_blank">fiai.azniirkh.ru</a></p>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-
-    <section class="mt-5" data-aos="fade-up">
-        <div class="container">
-            <div class="row pb-5">
-                <div class="col-md-12">
-                    <h3>Мои публикации 2022 (<a href="/publications/">Все публикации</a>)</h3>
-                    <ul class="pt-3 list-padding">
-                        <li><a href="/files/conf/marinebiology-sprat.pdf">Пятинский М.М., Шляхов В.А., Афанасьев Д.Ф. Обновленные результаты моделирования состояния запаса и промысла крымско-кавказской единицы запаса черноморского шпрота в период 2001–2021 гг</a></li>
-                        <li><a href="/files/kgmtu-2022.pdf">Пятинский М.М., Надолинский В.П., Жукова С.В., Надолинский Р.В., Бурлачко Д.С., Козоброд И.Д. Влияние изменения солености Азовского моря на продуктивность запаса и численность личинки тюльки в период 2000-2020 гг</a></li>
-                        <li><a href="/files/sibforum-2022.pdf">Krivoguz D., Nosova E., Piatinskii M. Analysis of spatio-temporal changes in Arctic ocean ecosystem using machine learning and its impact on marine transportation system</a></li>
-                        <li><a href="/files/qofisheries-2022.pdf">Козоброд И.Д., Шляхов В.А., Шляхова О.В., Пятинский М.М. Некоторые аспекты структуры промыслового изъятия и параметры популяции черноморскоазовской сельди в период 2004-2020 гг</a></li>
-                        <li><a href="/files/fisheries-2022-2.pdf">Piatinskii M., Krivogus D., Shlyakhov V., Borovskaya R. Long-term warming effect to sprat stock quality characteristics in Crimea-Caucasian shelf of the Black Sea // Fisheries. Issue 2. P. 46-53.</a></li>
-                        <li><a href="/files/fisheries-2022-1.pdf">Козоброд И.Д., Пятинский М.М., Рыбаков И.В. Моделирование запаса проходной черноморско-азовской сельди в условиях низкой информационной обеспеченности (2004-2020 годы)</a></li>
-                        <li><a href="/files/joicht-2022-ru.pdf">Булгакова Т.И., Кульба С.Н., Пятинский М.М. Моделирование сценариев восстановления запаса русского осетра Acipenser gueldenstaedtii Азовского моря при отсутствии естественного воспроизводства</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="bg-dark text-white pt-4 pb-4">
-        <div class="container pt-2" data-aos="fade-up">
-            <div class="row">
-                <div class="col-lg-6">
-                    <h2 class="text-white">Контакты и место работы</h2>
-                    <ul class="list-unstyled">
-                        <li>Рабочая эл. почта: <a href="mailto: pyatinskiymm@azniirkh.vniro.ru" class="text-white">pyatinskiymm@azniirkh.vniro.ru</a></li>
-                        <li>Личная эл. почта: <a href="mailto: zenn1989@ya.ru" class="text-white">zenn1989@ya.ru</a></li>
-                        <li>Telegram: <a href="https://t.me/zenn1989" class="text-white">@zenn1989</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-6">
-                    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A6c62a8581c902643bad2e5973fa713c2df95c71f40c9f806a532a1e7128d82be&amp;width=100%&amp;height=100%&amp;lang=ru_RU&amp;scroll=true"></script>
-                </div>
-            </div>
-        </div>
-    </section>
+    </div>
         </main>
 
         <footer class="mt-auto bg-dark">
